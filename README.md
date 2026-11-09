@@ -7,6 +7,9 @@ Sample dashboard project: enter a stock ticker and see a chart of its daily clos
 - Ticker input (defaults to AAPL)
 - Line chart of closing prices with 50- and 200-day moving averages
 - Summary metrics: latest close, 1-year change, 1-year range
+- Valuation: trailing P/E, dividend yield, earnings growth rate, and Peter Lynch's PEGY ratio
+  (P/E ÷ (dividend yield % + growth rate %)). Uses a 1-year forward analyst growth estimate
+  when available, otherwise 1-year trailing EPS growth; the dashboard labels which was used.
 - Expandable raw-data table
 - Results cached for an hour per ticker
 
